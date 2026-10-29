@@ -1,0 +1,691 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C9A38A2159B12B434C9A6A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111313A8AA7DF06CB3B5C9C3 /* Assets.xcassets */; };
+		2581662912DC781EF41709B3 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 544ABE3C2C3EF78E70A8AB98 /* PrivacyInfo.xcprivacy */; };
+		5404CE310E76E68CB8781648 /* CornerGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97368ACAC442CE4A4603596B /* CornerGeometry.swift */; };
+		F7329E06AE6024BD12A6BCAB /* ImageViewport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDFBC3C86A0D8AEA031D401 /* ImageViewport.swift */; };
+		2AB450B20B6C3F4806D3602C /* EditablePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20ADBD75ECB94D6B14012F31 /* EditablePage.swift */; };
+		6CBBB6E94AF9A1A886E2258A /* EnhancementMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166B362DEDFD40ED68FBFB83 /* EnhancementMode.swift */; };
+		36F26E19A03E6FF61C2F990D /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074E26ED7038147AF898971B /* Quadrilateral.swift */; };
+		8C2B7513358CCA2C13A8FDA8 /* SavedScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DCEAF43C0B442980951A152 /* SavedScan.swift */; };
+		9F1697BF265EE4B40C0A7517 /* DocumentStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E2901FF71D33298F5EF6D9 /* DocumentStore.swift */; };
+		114FDCCD02C0813D10969685 /* ImageEnhancer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CDED398C6964A1891711BC /* ImageEnhancer.swift */; };
+		FCF34EAECC7333D9D0D3B0EE /* ImageNormalizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3ACB58DCF5A8D421E4F632D /* ImageNormalizer.swift */; };
+		9862A9E0A2D86DCE4A478EF7 /* ImageSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 943F4FA509272C426E410011 /* ImageSizing.swift */; };
+		1BCEC25C1042034F84742E49 /* PDFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69BD7A2B9C8929735DDB495 /* PDFGenerator.swift */; };
+		B90EAA9F8633401B6503C38C /* PageRectangleDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFE9368657F40C90C922697 /* PageRectangleDetector.swift */; };
+		54B3A7EA68C00FF1828E21C5 /* PageRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9779D860EFA66461897C10E /* PageRenderer.swift */; };
+		92C0D8992678909B243018C8 /* PerspectiveCorrector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD51DD13034BC64FB0D1E7 /* PerspectiveCorrector.swift */; };
+		C6D2D602C88168BD683303AF /* ScanNaming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371ABFB38ED31C117FE72F8A /* ScanNaming.swift */; };
+		D0B1E2B799E2D3C38CFF5EDC /* SnapDocApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01DA02516153A0584E9AB6A /* SnapDocApp.swift */; };
+		EFCC0A85B5C91E090DBFDFE0 /* RuntimeEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B9BF587D4026574188E3819 /* RuntimeEnvironment.swift */; };
+		877A7BB4D00509442642DE33 /* SnapDocTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BDE1AB87604DCD01640F4A /* SnapDocTheme.swift */; };
+		A20DFB0317EDAFD8D9E7EDFD /* DocumentLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF89ECAB3A9DCBD002ED1F57 /* DocumentLibrary.swift */; };
+		719BB708FA84DC89F31E150B /* ScanSessionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91595430A5287A8DF55F55C5 /* ScanSessionModel.swift */; };
+		99FC603B520457470C605564 /* ActivityShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E88CD9CF849DA03CE14811 /* ActivityShareSheet.swift */; };
+		548D7D0F612D39497FACB242 /* CaptureRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF402FE554CDF3134844D306 /* CaptureRootView.swift */; };
+		8EE975F133FB0364A03DE88C /* CornerEditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C98A73AA49DCD3D7733CB69 /* CornerEditorView.swift */; };
+		D265049C9684D74A55CD7D38 /* DocumentCameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED0D34F1E289E695387365A /* DocumentCameraView.swift */; };
+		F72AB70DD0C9241C79FEB988 /* FileThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D890EE00F7E3B9BA7C0EAC /* FileThumbnail.swift */; };
+		6DCEDCA2D63E72CC2C90BEFB /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576811252A7D8C6AB4BACEA7 /* GalleryView.swift */; };
+		DE70336E579E4D6327460F47 /* ReviewScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37262F978FBF2FFEFDA26372 /* ReviewScanView.swift */; };
+		05BB09922C5DDF3A28C8C886 /* SaveScanSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6186A3FEC08D08387FA2FCC9 /* SaveScanSheet.swift */; };
+		884016AE1E5A0C7A7F34B45C /* ScanDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 283C7468F707E962834642B5 /* ScanDetailView.swift */; };
+		55E0E3685FE122906F0034AC /* CornerGeometryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF1BC4FACBBC222642A0D3E /* CornerGeometryTests.swift */; };
+		9CCB12CFF5ABB8D86305A2D9 /* DocumentStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01354FC29E15014B3366066 /* DocumentStoreTests.swift */; };
+		29DA4450AAB389E3A7DAF32A /* EnhancementModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4E32F15BC094E2B1347272 /* EnhancementModeTests.swift */; };
+		627E98FB9CC8443486BFA3C4 /* ImageEnhancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16ADC4CE385356B60C19BC13 /* ImageEnhancerTests.swift */; };
+		D1CC1A8EEEEDCBAB57F6E844 /* ImageSizingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9372CCBD8D9B61B76C3B9B /* ImageSizingTests.swift */; };
+		8C62530AF51728CB851AFD4E /* ImageViewportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E9D814A4C5E541B732D3D /* ImageViewportTests.swift */; };
+		09036237185CDD39798B8790 /* PDFGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893880E29161C6FB60D8655A /* PDFGeneratorTests.swift */; };
+		6522F3DDF03D7E22DA867948 /* PerspectiveAndRotationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E626873C62BB8456A990B59C /* PerspectiveAndRotationTests.swift */; };
+		2D88F8DF2704C7E7CC31A88B /* PointAssertions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FC67297AE35A853E4BA5B07 /* PointAssertions.swift */; };
+		662DCEE19782CE9C171EBAF9 /* ScanNamingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13099B4CDA866D2771A74DDF /* ScanNamingTests.swift */; };
+		D252E93793BDD5C45BAA4C63 /* TestImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8692364E495905B59688FD /* TestImages.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26E0CEB060A0DA81FBFDC6FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E71DC7459C9EB7604FE6CAF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9F6152B468AF811D2B7838C;
+			remoteInfo = SnapDoc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		111313A8AA7DF06CB3B5C9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D45C95CB27A57F57701ACDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		544ABE3C2C3EF78E70A8AB98 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		078F4D3AA6286B0CEBCDF300 /* SnapDoc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapDoc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		913C56C6E8BFBB5615847AF3 /* SnapDocTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapDocTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		97368ACAC442CE4A4603596B /* CornerGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerGeometry.swift; sourceTree = "<group>"; };
+		0FDFBC3C86A0D8AEA031D401 /* ImageViewport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewport.swift; sourceTree = "<group>"; };
+		20ADBD75ECB94D6B14012F31 /* EditablePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditablePage.swift; sourceTree = "<group>"; };
+		166B362DEDFD40ED68FBFB83 /* EnhancementMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancementMode.swift; sourceTree = "<group>"; };
+		074E26ED7038147AF898971B /* Quadrilateral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quadrilateral.swift; sourceTree = "<group>"; };
+		6DCEAF43C0B442980951A152 /* SavedScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedScan.swift; sourceTree = "<group>"; };
+		77E2901FF71D33298F5EF6D9 /* DocumentStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStore.swift; sourceTree = "<group>"; };
+		D8CDED398C6964A1891711BC /* ImageEnhancer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnhancer.swift; sourceTree = "<group>"; };
+		A3ACB58DCF5A8D421E4F632D /* ImageNormalizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNormalizer.swift; sourceTree = "<group>"; };
+		943F4FA509272C426E410011 /* ImageSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizing.swift; sourceTree = "<group>"; };
+		A69BD7A2B9C8929735DDB495 /* PDFGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGenerator.swift; sourceTree = "<group>"; };
+		CFFE9368657F40C90C922697 /* PageRectangleDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRectangleDetector.swift; sourceTree = "<group>"; };
+		B9779D860EFA66461897C10E /* PageRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageRenderer.swift; sourceTree = "<group>"; };
+		73FD51DD13034BC64FB0D1E7 /* PerspectiveCorrector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveCorrector.swift; sourceTree = "<group>"; };
+		371ABFB38ED31C117FE72F8A /* ScanNaming.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanNaming.swift; sourceTree = "<group>"; };
+		D01DA02516153A0584E9AB6A /* SnapDocApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapDocApp.swift; sourceTree = "<group>"; };
+		9B9BF587D4026574188E3819 /* RuntimeEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeEnvironment.swift; sourceTree = "<group>"; };
+		65BDE1AB87604DCD01640F4A /* SnapDocTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapDocTheme.swift; sourceTree = "<group>"; };
+		EF89ECAB3A9DCBD002ED1F57 /* DocumentLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentLibrary.swift; sourceTree = "<group>"; };
+		91595430A5287A8DF55F55C5 /* ScanSessionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanSessionModel.swift; sourceTree = "<group>"; };
+		20E88CD9CF849DA03CE14811 /* ActivityShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityShareSheet.swift; sourceTree = "<group>"; };
+		AF402FE554CDF3134844D306 /* CaptureRootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureRootView.swift; sourceTree = "<group>"; };
+		6C98A73AA49DCD3D7733CB69 /* CornerEditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerEditorView.swift; sourceTree = "<group>"; };
+		BED0D34F1E289E695387365A /* DocumentCameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentCameraView.swift; sourceTree = "<group>"; };
+		17D890EE00F7E3B9BA7C0EAC /* FileThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileThumbnail.swift; sourceTree = "<group>"; };
+		576811252A7D8C6AB4BACEA7 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		37262F978FBF2FFEFDA26372 /* ReviewScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScanView.swift; sourceTree = "<group>"; };
+		6186A3FEC08D08387FA2FCC9 /* SaveScanSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveScanSheet.swift; sourceTree = "<group>"; };
+		283C7468F707E962834642B5 /* ScanDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanDetailView.swift; sourceTree = "<group>"; };
+		ACF1BC4FACBBC222642A0D3E /* CornerGeometryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerGeometryTests.swift; sourceTree = "<group>"; };
+		D01354FC29E15014B3366066 /* DocumentStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentStoreTests.swift; sourceTree = "<group>"; };
+		9F4E32F15BC094E2B1347272 /* EnhancementModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnhancementModeTests.swift; sourceTree = "<group>"; };
+		16ADC4CE385356B60C19BC13 /* ImageEnhancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnhancerTests.swift; sourceTree = "<group>"; };
+		0F9372CCBD8D9B61B76C3B9B /* ImageSizingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSizingTests.swift; sourceTree = "<group>"; };
+		B88E9D814A4C5E541B732D3D /* ImageViewportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewportTests.swift; sourceTree = "<group>"; };
+		893880E29161C6FB60D8655A /* PDFGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFGeneratorTests.swift; sourceTree = "<group>"; };
+		E626873C62BB8456A990B59C /* PerspectiveAndRotationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerspectiveAndRotationTests.swift; sourceTree = "<group>"; };
+		8FC67297AE35A853E4BA5B07 /* PointAssertions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointAssertions.swift; sourceTree = "<group>"; };
+		13099B4CDA866D2771A74DDF /* ScanNamingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanNamingTests.swift; sourceTree = "<group>"; };
+		1D8692364E495905B59688FD /* TestImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestImages.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05543DA9A2C2812B4B83B360 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BEA09BF05CB2F62D6599976 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D9C10CF6A3049310685E194 /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				97368ACAC442CE4A4603596B /* CornerGeometry.swift */,
+				0FDFBC3C86A0D8AEA031D401 /* ImageViewport.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		745AC982062930AFAAC65E65 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				20ADBD75ECB94D6B14012F31 /* EditablePage.swift */,
+				166B362DEDFD40ED68FBFB83 /* EnhancementMode.swift */,
+				074E26ED7038147AF898971B /* Quadrilateral.swift */,
+				6DCEAF43C0B442980951A152 /* SavedScan.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A77B93F7DA6764249D62D57D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				77E2901FF71D33298F5EF6D9 /* DocumentStore.swift */,
+				D8CDED398C6964A1891711BC /* ImageEnhancer.swift */,
+				A3ACB58DCF5A8D421E4F632D /* ImageNormalizer.swift */,
+				943F4FA509272C426E410011 /* ImageSizing.swift */,
+				CFFE9368657F40C90C922697 /* PageRectangleDetector.swift */,
+				B9779D860EFA66461897C10E /* PageRenderer.swift */,
+				A69BD7A2B9C8929735DDB495 /* PDFGenerator.swift */,
+				73FD51DD13034BC64FB0D1E7 /* PerspectiveCorrector.swift */,
+				371ABFB38ED31C117FE72F8A /* ScanNaming.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		34705E8133CBB5F9D5EE795B /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				9B9BF587D4026574188E3819 /* RuntimeEnvironment.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		3F8DB06B5E1454D19D8BBAD5 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				65BDE1AB87604DCD01640F4A /* SnapDocTheme.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		8B285DE510651268E00D9D05 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				EF89ECAB3A9DCBD002ED1F57 /* DocumentLibrary.swift */,
+				91595430A5287A8DF55F55C5 /* ScanSessionModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A0FB9E55D7E1BE799C293CB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20E88CD9CF849DA03CE14811 /* ActivityShareSheet.swift */,
+				AF402FE554CDF3134844D306 /* CaptureRootView.swift */,
+				6C98A73AA49DCD3D7733CB69 /* CornerEditorView.swift */,
+				BED0D34F1E289E695387365A /* DocumentCameraView.swift */,
+				17D890EE00F7E3B9BA7C0EAC /* FileThumbnail.swift */,
+				576811252A7D8C6AB4BACEA7 /* GalleryView.swift */,
+				37262F978FBF2FFEFDA26372 /* ReviewScanView.swift */,
+				6186A3FEC08D08387FA2FCC9 /* SaveScanSheet.swift */,
+				283C7468F707E962834642B5 /* ScanDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98A5DB46C42DFAC5C44034BB /* SnapDoc */ = {
+			isa = PBXGroup;
+			children = (
+				111313A8AA7DF06CB3B5C9C3 /* Assets.xcassets */,
+				3D9C10CF6A3049310685E194 /* Geometry */,
+				4D45C95CB27A57F57701ACDF /* Info.plist */,
+				745AC982062930AFAAC65E65 /* Models */,
+				544ABE3C2C3EF78E70A8AB98 /* PrivacyInfo.xcprivacy */,
+				A77B93F7DA6764249D62D57D /* Services */,
+				D01DA02516153A0584E9AB6A /* SnapDocApp.swift */,
+				34705E8133CBB5F9D5EE795B /* Support */,
+				3F8DB06B5E1454D19D8BBAD5 /* Theme */,
+				8B285DE510651268E00D9D05 /* ViewModels */,
+				A0FB9E55D7E1BE799C293CB4 /* Views */,
+			);
+			path = SnapDoc;
+			sourceTree = "<group>";
+		};
+		9BDF66F70827050D15773DFA /* SnapDocTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACF1BC4FACBBC222642A0D3E /* CornerGeometryTests.swift */,
+				D01354FC29E15014B3366066 /* DocumentStoreTests.swift */,
+				9F4E32F15BC094E2B1347272 /* EnhancementModeTests.swift */,
+				16ADC4CE385356B60C19BC13 /* ImageEnhancerTests.swift */,
+				0F9372CCBD8D9B61B76C3B9B /* ImageSizingTests.swift */,
+				B88E9D814A4C5E541B732D3D /* ImageViewportTests.swift */,
+				893880E29161C6FB60D8655A /* PDFGeneratorTests.swift */,
+				E626873C62BB8456A990B59C /* PerspectiveAndRotationTests.swift */,
+				8FC67297AE35A853E4BA5B07 /* PointAssertions.swift */,
+				13099B4CDA866D2771A74DDF /* ScanNamingTests.swift */,
+				1D8692364E495905B59688FD /* TestImages.swift */,
+			);
+			path = SnapDocTests;
+			sourceTree = "<group>";
+		};
+		D5F60200EDF27F71DF8514B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078F4D3AA6286B0CEBCDF300 /* SnapDoc.app */,
+				913C56C6E8BFBB5615847AF3 /* SnapDocTests.xctest */,
+			);
+			sourceTree = "<group>";
+		};
+		895ACF1B8D5AFDA8AFBBD854 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				98A5DB46C42DFAC5C44034BB /* SnapDoc */,
+				9BDF66F70827050D15773DFA /* SnapDocTests */,
+				D5F60200EDF27F71DF8514B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9F6152B468AF811D2B7838C /* SnapDoc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FF1EF08DD4ADB027CC753CA /* Build configuration list for PBXNativeTarget "SnapDoc" */;
+			buildPhases = (
+				963869B1029082DF8661B8F7 /* Sources */,
+				05543DA9A2C2812B4B83B360 /* Frameworks */,
+				128E9ECFE11BAD2B0839DBD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapDoc;
+			productName = SnapDoc;
+			productReference = 078F4D3AA6286B0CEBCDF300 /* SnapDoc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AF9E64F707DE3A2F10DFF6F0 /* SnapDocTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B388CA3A12B3A0EF4B020C /* Build configuration list for PBXNativeTarget "SnapDocTests" */;
+			buildPhases = (
+				D303C2BB10F266631B987201 /* Sources */,
+				0BEA09BF05CB2F62D6599976 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9631A0E76308C8A1FD707CB5 /* PBXTargetDependency */,
+			);
+			name = SnapDocTests;
+			productName = SnapDocTests;
+			productReference = 913C56C6E8BFBB5615847AF3 /* SnapDocTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E71DC7459C9EB7604FE6CAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				ORGANIZATIONNAME = SnapDoc;
+				TargetAttributes = {
+					A9F6152B468AF811D2B7838C = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AF9E64F707DE3A2F10DFF6F0 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A9F6152B468AF811D2B7838C;
+					};
+				};
+			};
+			buildConfigurationList = EBD53417D5FF205DF7C13385 /* Build configuration list for PBXProject "SnapDoc" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895ACF1B8D5AFDA8AFBBD854;
+			productRefGroup = D5F60200EDF27F71DF8514B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9F6152B468AF811D2B7838C /* SnapDoc */,
+				AF9E64F707DE3A2F10DFF6F0 /* SnapDocTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		128E9ECFE11BAD2B0839DBD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9A38A2159B12B434C9A6A36 /* Assets.xcassets in Resources */,
+				2581662912DC781EF41709B3 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		963869B1029082DF8661B8F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5404CE310E76E68CB8781648 /* CornerGeometry.swift in Sources */,
+				F7329E06AE6024BD12A6BCAB /* ImageViewport.swift in Sources */,
+				2AB450B20B6C3F4806D3602C /* EditablePage.swift in Sources */,
+				6CBBB6E94AF9A1A886E2258A /* EnhancementMode.swift in Sources */,
+				36F26E19A03E6FF61C2F990D /* Quadrilateral.swift in Sources */,
+				8C2B7513358CCA2C13A8FDA8 /* SavedScan.swift in Sources */,
+				9F1697BF265EE4B40C0A7517 /* DocumentStore.swift in Sources */,
+				114FDCCD02C0813D10969685 /* ImageEnhancer.swift in Sources */,
+				FCF34EAECC7333D9D0D3B0EE /* ImageNormalizer.swift in Sources */,
+				9862A9E0A2D86DCE4A478EF7 /* ImageSizing.swift in Sources */,
+				1BCEC25C1042034F84742E49 /* PDFGenerator.swift in Sources */,
+				B90EAA9F8633401B6503C38C /* PageRectangleDetector.swift in Sources */,
+				54B3A7EA68C00FF1828E21C5 /* PageRenderer.swift in Sources */,
+				92C0D8992678909B243018C8 /* PerspectiveCorrector.swift in Sources */,
+				C6D2D602C88168BD683303AF /* ScanNaming.swift in Sources */,
+				D0B1E2B799E2D3C38CFF5EDC /* SnapDocApp.swift in Sources */,
+				EFCC0A85B5C91E090DBFDFE0 /* RuntimeEnvironment.swift in Sources */,
+				877A7BB4D00509442642DE33 /* SnapDocTheme.swift in Sources */,
+				A20DFB0317EDAFD8D9E7EDFD /* DocumentLibrary.swift in Sources */,
+				719BB708FA84DC89F31E150B /* ScanSessionModel.swift in Sources */,
+				99FC603B520457470C605564 /* ActivityShareSheet.swift in Sources */,
+				548D7D0F612D39497FACB242 /* CaptureRootView.swift in Sources */,
+				8EE975F133FB0364A03DE88C /* CornerEditorView.swift in Sources */,
+				D265049C9684D74A55CD7D38 /* DocumentCameraView.swift in Sources */,
+				F72AB70DD0C9241C79FEB988 /* FileThumbnail.swift in Sources */,
+				6DCEDCA2D63E72CC2C90BEFB /* GalleryView.swift in Sources */,
+				DE70336E579E4D6327460F47 /* ReviewScanView.swift in Sources */,
+				05BB09922C5DDF3A28C8C886 /* SaveScanSheet.swift in Sources */,
+				884016AE1E5A0C7A7F34B45C /* ScanDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D303C2BB10F266631B987201 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E0E3685FE122906F0034AC /* CornerGeometryTests.swift in Sources */,
+				9CCB12CFF5ABB8D86305A2D9 /* DocumentStoreTests.swift in Sources */,
+				29DA4450AAB389E3A7DAF32A /* EnhancementModeTests.swift in Sources */,
+				627E98FB9CC8443486BFA3C4 /* ImageEnhancerTests.swift in Sources */,
+				D1CC1A8EEEEDCBAB57F6E844 /* ImageSizingTests.swift in Sources */,
+				8C62530AF51728CB851AFD4E /* ImageViewportTests.swift in Sources */,
+				09036237185CDD39798B8790 /* PDFGeneratorTests.swift in Sources */,
+				6522F3DDF03D7E22DA867948 /* PerspectiveAndRotationTests.swift in Sources */,
+				2D88F8DF2704C7E7CC31A88B /* PointAssertions.swift in Sources */,
+				662DCEE19782CE9C171EBAF9 /* ScanNamingTests.swift in Sources */,
+				D252E93793BDD5C45BAA4C63 /* TestImages.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9631A0E76308C8A1FD707CB5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9F6152B468AF811D2B7838C /* SnapDoc */;
+			targetProxy = 26E0CEB060A0DA81FBFDC6FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E0D3157A7071EA6316F22267 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40725037EE985910B259F251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2B461EFA34F7668CED20A0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapDoc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SnapDoc;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharybuhrts.SnapDoc;
+				PRODUCT_NAME = SnapDoc;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CDF80513D96E8B5873215976 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapDoc/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SnapDoc;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharybuhrts.SnapDoc;
+				PRODUCT_NAME = SnapDoc;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F8181283005497D2FB42143C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharybuhrts.SnapDoc.tests;
+				PRODUCT_NAME = SnapDocTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapDoc";
+			};
+			name = Debug;
+		};
+		97E68D928FB28FD35181D184 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zacharybuhrts.SnapDoc.tests;
+				PRODUCT_NAME = SnapDocTests;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapDoc.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnapDoc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBD53417D5FF205DF7C13385 /* Build configuration list for PBXProject "SnapDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0D3157A7071EA6316F22267 /* Debug */,
+				40725037EE985910B259F251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FF1EF08DD4ADB027CC753CA /* Build configuration list for PBXNativeTarget "SnapDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B461EFA34F7668CED20A0C /* Debug */,
+				CDF80513D96E8B5873215976 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18B388CA3A12B3A0EF4B020C /* Build configuration list for PBXNativeTarget "SnapDocTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8181283005497D2FB42143C /* Debug */,
+				97E68D928FB28FD35181D184 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E71DC7459C9EB7604FE6CAF /* Project object */;
+}
